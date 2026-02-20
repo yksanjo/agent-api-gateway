@@ -1,0 +1,14 @@
+{
+  "name": "agent-api-gateway",
+  "version": "1.0.0",
+  "description": "Intelligent API Gateway",
+  "private": true,
+  "workspaces": ["packages/*", "services/*", "integrations/*"],
+  "scripts": {
+    "test": "npm test --workspaces --if-present",
+    "dev": "npm run dev --workspaces --if-present"
+  },
+  "keywords": ["agent", "ai", "routing,auth,rate-limit,cache"],
+  "author": "Yoshi Kondo <yoshi@musicailab.com>",
+  "license": "MIT"
+}
